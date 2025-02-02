@@ -4,7 +4,7 @@ Welcome to Xpress Video! This project is designed to provide a seamless video st
 
 ## Features
 
-- Turnkey solution for high-quality, on-demand and offline streaming
+- Turnkey solution for high-quality, on-demand and offline streaming storage and download of video
 - Video storage and download capabilities
 - Userless
 - Cross-platform support
@@ -41,5 +41,6 @@ npm start
 
 
 ## Contact
+
 
 Enjoy streaming with Xpress Video!
