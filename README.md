@@ -2,6 +2,13 @@
 
 Welcome to Xpress Video! This project is designed to provide a seamless video streaming experience.
 
+## Objective
+
+- Authenticate with self hosted cloud and return a list of existing videos
+- Authenticate with Dailymotion API, Aquire access token, return channel ID
+- Compare videos in cloud to those already uploaded to Dailymotion, Auto upload those that don't exist
+- Pull down videos in Dailymotion to streaming platform and display as a grid on page 
+
 ## Features
 
 - Turnkey solution for high-quality, on-demand and offline streaming storage and download of video
