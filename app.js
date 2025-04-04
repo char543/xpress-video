@@ -14,7 +14,7 @@ app.get('/gallery', async (req, res) => {
       params: {
         part: 'snippet',
         playlistId: YT_PLAYLIST_ID,
-        maxResults: 10,
+        maxResults: 12,
         key: YT_API_KEY
       }
     });
