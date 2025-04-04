@@ -8,7 +8,6 @@ app.use(express.json());
 const YT_API_KEY = process.env.YT_API_KEY;
 const YT_PLAYLIST_ID = process.env.YT_PLAYLIST_ID;
 
-// Route to fetch videos from your public YouTube playlist
 app.get('/gallery', async (req, res) => {
   try {
     const response = await axios.get('https://www.googleapis.com/youtube/v3/playlistItems', {
