@@ -28,6 +28,13 @@ async function fetchAndDisplayVideos() {
 
 fetchAndDisplayVideos();
 
+// footer text
+const footer = document.querySelector('footer');
+const span = document.createElement('span');
+span.textContent = '© Bassbarn 2025';
+span.classList.add('footer-text');
+footer.appendChild(span);
+
 /*
 * video gallery styling
 */
